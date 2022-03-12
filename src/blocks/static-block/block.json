@@ -1,0 +1,18 @@
+{
+	"apiVersion": 2,
+	"name": "dgwyer/static-block",
+	"title": "Static Block",
+	"category": "dgwyer",
+	"description": "A starter static block.",
+	"keywords": [ "static block" ],
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "wide"
+		}
+	},
+	"styles": [],
+	"supports": {
+		"align": [ "wide", "full" ]
+	}
+}

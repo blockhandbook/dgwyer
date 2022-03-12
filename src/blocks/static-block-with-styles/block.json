@@ -1,0 +1,32 @@
+{
+	"apiVersion": 2,
+	"name": "dgwyer/static-block-with-styles",
+	"title": "Static Block with Styles",
+	"category": "dgwyer",
+	"description": "A starter static block w/ styles.",
+	"keywords": [ "static block", "styles" ],
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "default"
+		}
+	},
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default",
+			"isDefault": true
+		},
+		{
+			"name": "light",
+			"label": "Light"
+		},
+		{
+			"name": "dark",
+			"label": "Dark"
+		}
+	],
+	"supports": {
+		"align": [ "wide", "full" ]
+	}
+}

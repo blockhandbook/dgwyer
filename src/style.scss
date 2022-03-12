@@ -1,0 +1,14 @@
+/*!
+ * This file is for common or global frontend and editor styles.
+ *
+ * The following styles get applied on both the front of your
+ * site and in the editor.  Place styles in the custom namespace below
+ * so they don't bleed into the rest of the editor/site.
+*/
+// Escape forward slashes, otherwise they won't compile
+// i.e. .w-1\/3 {}
+
+// Custom namespace
+[class*="wp-block-dgwyer"] {
+	// write common plugin/block SASS styles here.
+}
